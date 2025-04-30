@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tighty-Brighties™ - The Future of Underwear</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">Tighty-Brighties™</div>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#buy">Buy Now</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="hero">
+<div class="hero-content">
+<h1>Welcome to the Future of Comfort</h1>
+<p>Self-cleaning, solar-powered, and temperature-adjusting underwear that keeps you fresh all day.</p>
+<button id="buy-now" onclick="buyNow()">Buy Now</button>
+</div>
+</section>
+
+<section id="about">
+<h2>About Tighty-Brighties™</h2>
+<p>Your new best friend for odor-free, temperature-regulated, self-cleaning comfort. *Tighty-Brighties™* are equipped with the latest solar-powered deodorizing and self-cleaning technology to keep you fresh and clean, no matter what your day holds. Perfect for busy professionals, travelers, and anyone who loves comfort and convenience!</p>
+</section>
+
+<section id="features">
+<h2>Features</h2>
+<ul>
+<li><strong>Solar-Powered Freshness:</strong> Say goodbye to odors with UV-powered deodorizing that works all day long.</li>
+<li><strong>Self-Cleaning Tech:</strong> Nanotechnology keeps your underwear clean, so you don’t have to wash them as often.</li>
+<li><strong>Temperature Control:</strong> Your underwear will adapt to hot or cold weather, keeping you comfortable in any environment.</li>
+<li><strong>Easy Maintenance:</strong> A quick recharge in the included dock, and they’re ready to go again.</li>
+</ul>
+</section>
+
+<section id="buy">
+<h2>Buy Your Pair of Tighty-Brighties™ Now!</h2>
+<p>Available in all sizes and colors, with free shipping for a limited time!</p>
+<button id="buy-now" onclick="buyNow()">Buy Now</button>
+</section>
+
+<footer>
+<p>&copy; 2025 Tighty-Brighties™. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

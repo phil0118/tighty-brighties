@@ -1,0 +1,127 @@
+/* Global Styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #333;
+}
+
+header {
+background: #333;
+color: #fff;
+padding: 10px 0;
+}
+
+header .logo {
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+
+nav ul li {
+margin: 0 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
+
+#hero .hero-content h1 {
+font-size: 3rem;
+margin-bottom: 20px;
+}
+
+#hero .hero-content p {
+font-size: 1.5rem;
+margin-bottom: 30px;
+}
+
+#hero button {
+background-color: #ff7f50;
+color: white;
+padding: 10px 20px;
+font-size: 1.2rem;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+#hero button:hover {
+background-color: #ff6347;
+}
+
+/* Sections */
+section {
+padding: 40px;
+margin: 20px auto;
+max-width: 900px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+margin-bottom: 20px;
+font-size: 2rem;
+}
+
+ul {
+list-style-type: none;
+}
+
+ul li {
+margin: 10px 0;
+font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+text-align: center;
+background-color: #333;
+color: white;
+padding: 20px;
+}
+
+/* Button for Buying */
+#buy-now {
+background-color: #28a745;
+color: white;
+padding: 12px 25px;
+font-size: 1.2rem;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+#buy-now:hover {
+background-color: #218838;
+}
